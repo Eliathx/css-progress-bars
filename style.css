@@ -1,0 +1,125 @@
+:root {
+    font: normal normal normal 15px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+    color: #f8f9fa;
+    background-color: #0d1520;
+}
+
+body {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0.4em;
+    font-size: 32px;
+}
+
+hr {
+    border-color: rgba(44, 126, 210, 0.38);
+    margin-bottom: 2em;
+}
+span{
+    opacity: 61%;
+    font-size: 13px;
+}
+.header {
+    margin-bottom: 1.2em;
+}
+
+.icon {
+    position: relative;
+    top: 40px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    color: rgba(44, 126, 210, 0.38);
+    margin: 5px;
+}
+
+.icon:hover {
+    color: rgba(44, 126, 210, 0.8);
+    transform: scale(1.2, 1.2);
+}
+
+/*Round progress bar*/
+.inner-round {
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+
+    background-color: #121a26;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 11px;
+
+}
+
+.outer-round {
+    margin: 0 10px 10px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(24, 37, 51);
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.fill-round {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#round-1 {
+    background: conic-gradient(#8ab2de 60%, transparent 10.05%);
+}
+
+#round-2 {
+    background: conic-gradient(#99d382 23%, transparent 10.05%);
+}
+
+#round-3 {
+    background: conic-gradient(#ff9898 81%, transparent 10.05%);
+}
+
+/*Linear progress bar*/
+p {
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 11px;
+    color: #a9a9a9;
+}
+
+.bar {
+    width: 100%;
+    height: 1.3em;
+    border-radius: 7px;
+}
+
+.back-bar {
+
+    background-color: rgb(24, 37, 51);
+
+}
+
+#front-bar-1 {
+    background-color: rgb(138, 178, 222);
+    clip-path: inset(0 39% 0 0 round 5px);
+}
+
+#front-bar-2 {
+    background-color: rgb(153, 211, 130);
+    clip-path: inset(0 72% 0 0 round 5px);
+}
+
+#front-bar-3 {
+    background-color: rgb(255, 152, 152);
+    clip-path: inset(0 56% 0 0 round 5px);
+}
+
